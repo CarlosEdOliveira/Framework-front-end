@@ -1,0 +1,125 @@
+
+body { 
+    font: 18px/1.4 arial, sans-serif;
+    color:#000000;
+}
+
+a {
+    color:#fff;
+}
+
+a:hover{
+    color:#fff;
+}
+
+nav {
+    background-color: #0c5460;
+    display: flex;
+    list-style: none;
+    height: 60px;
+    justify-content: space-between;
+}
+.esquerda-nav{
+    display: flex;
+    list-style: none;
+}
+#menu-toggle {
+    background-color: #0c5460;
+    color: #fff;
+    padding: 1px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 25px;
+    margin: 0 10px;
+    border: 0;
+    align-items: center;
+
+}
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0%;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}
+
+.menu ul{
+    text-align: center;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 10px;
+    align-items: center;
+}
+.redessociais{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    align-items: center;
+}
+
+.redessociais li {
+    display: flex;
+    margin: 0 10px;
+}
+.icon-logo {
+    margin-top: 5px;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    height: 30px;
+    width: 30px;
+}
+
+.localizacao {
+    height: 40px;
+    padding: 0%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+
+.icon-localizacao {
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+    align-items: center;
+}
+
+.rodape {
+    background-color: #0c5460;
+
+}
+
+hr{
+    color:white;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-color: #fff;
+}
+
+.copy-terms {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color:#fff;
+    font: 10px/1.4 arial, sans-serif;
+    height: 50px;
+}
